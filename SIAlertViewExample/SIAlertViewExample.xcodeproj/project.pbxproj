@@ -39,6 +39,7 @@
 		7E23C6A8173277EA00784CF1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23C6A7173277EA00784CF1 /* Icon-72.png */; };
 		7E23C6AA173277EE00784CF1 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E23C6A9173277EE00784CF1 /* Icon-72@2x.png */; };
 		7EEECA69182350B1001FEDF5 /* UIWindow+SIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEECA68182350B1001FEDF5 /* UIWindow+SIUtils.m */; };
+		F4E246ED1AECFAE6003796AC /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E246EC1AECFAE6003796AC /* TTTAttributedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,8 @@
 		7E23C6A9173277EE00784CF1 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		7EEECA67182350B1001FEDF5 /* UIWindow+SIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+SIUtils.h"; sourceTree = "<group>"; };
 		7EEECA68182350B1001FEDF5 /* UIWindow+SIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SIUtils.m"; sourceTree = "<group>"; };
+		F4E246EB1AECFAE6003796AC /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		F4E246EC1AECFAE6003796AC /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,8 @@
 				7E23C69917325EBD00784CF1 /* SIAlertView.bundle */,
 				7E23C69A17325EBD00784CF1 /* SIAlertView.h */,
 				7E23C69B17325EBD00784CF1 /* SIAlertView.m */,
+				F4E246EB1AECFAE6003796AC /* TTTAttributedLabel.h */,
+				F4E246EC1AECFAE6003796AC /* TTTAttributedLabel.m */,
 				7EEECA67182350B1001FEDF5 /* UIWindow+SIUtils.h */,
 				7EEECA68182350B1001FEDF5 /* UIWindow+SIUtils.m */,
 			);
@@ -306,6 +311,7 @@
 				7E23C69217325EAB00784CF1 /* ViewController.m in Sources */,
 				7E23C69D17325EBD00784CF1 /* SIAlertView.m in Sources */,
 				7EEECA69182350B1001FEDF5 /* UIWindow+SIUtils.m in Sources */,
+				F4E246ED1AECFAE6003796AC /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
